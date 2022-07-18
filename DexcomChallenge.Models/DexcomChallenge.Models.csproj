@@ -5,9 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\DexcomChallenge.Models\DexcomChallenge.Models.csproj" />
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>DexcomChallenge.Models.Tests</_Parameter1>
+    </AssemblyAttribute>
   </ItemGroup>
-
 </Project>

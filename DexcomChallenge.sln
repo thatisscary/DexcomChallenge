@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DexcomChallenge", "DexcomChallenge\DexcomChallenge.csproj", "{CD82A48B-7B99-42A1-B76B-A128088AF591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DexcomChallenge", "DexcomChallenge\DexcomChallenge.csproj", "{CD82A48B-7B99-42A1-B76B-A128088AF591}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DexcomChallenge.Services", "DexcomChallenge.Services\DexcomChallenge.Services.csproj", "{74AC673C-E204-4BE5-8828-FD9E68A2651E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DexcomChallenge.Models", "DexcomChallenge.Models\DexcomChallenge.Models.csproj", "{3775E853-A40B-4381-B22A-60D94CDDA70B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DexcomChallenge.Services.Tests", "DexcomChallenge.Services.Tests\DexcomChallenge.Services.Tests.csproj", "{3FE506E8-2A2B-4062-842A-3A3BEAE51E83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DexcomChallenge.Models.Tests", "DexcomChallenge.Models.Tests\DexcomChallenge.Models.Tests.csproj", "{BE87FBE1-C806-4F0A-911F-2EC5E43D25EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{CD82A48B-7B99-42A1-B76B-A128088AF591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD82A48B-7B99-42A1-B76B-A128088AF591}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD82A48B-7B99-42A1-B76B-A128088AF591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74AC673C-E204-4BE5-8828-FD9E68A2651E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AC673C-E204-4BE5-8828-FD9E68A2651E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AC673C-E204-4BE5-8828-FD9E68A2651E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AC673C-E204-4BE5-8828-FD9E68A2651E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3775E853-A40B-4381-B22A-60D94CDDA70B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3775E853-A40B-4381-B22A-60D94CDDA70B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3775E853-A40B-4381-B22A-60D94CDDA70B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3775E853-A40B-4381-B22A-60D94CDDA70B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE506E8-2A2B-4062-842A-3A3BEAE51E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE506E8-2A2B-4062-842A-3A3BEAE51E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE506E8-2A2B-4062-842A-3A3BEAE51E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE506E8-2A2B-4062-842A-3A3BEAE51E83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE87FBE1-C806-4F0A-911F-2EC5E43D25EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE87FBE1-C806-4F0A-911F-2EC5E43D25EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE87FBE1-C806-4F0A-911F-2EC5E43D25EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE87FBE1-C806-4F0A-911F-2EC5E43D25EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

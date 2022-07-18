@@ -1,4 +1,4 @@
-﻿namespace DexcomChallenge.Services
+﻿namespace DexcomChallenge.Models
 {
     public class Class1
     {
