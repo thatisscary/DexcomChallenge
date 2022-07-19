@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DexcomChallenge.Services", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DexcomChallenge.Models", "DexcomChallenge.Models\DexcomChallenge.Models.csproj", "{3775E853-A40B-4381-B22A-60D94CDDA70B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DexcomChallenge.Services.Tests", "DexcomChallenge.Services.Tests\DexcomChallenge.Services.Tests.csproj", "{3FE506E8-2A2B-4062-842A-3A3BEAE51E83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DexcomChallenge.Services.Tests", "DexcomChallenge.Services.Tests\DexcomChallenge.Services.Tests.csproj", "{3FE506E8-2A2B-4062-842A-3A3BEAE51E83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DexcomChallenge.Models.Tests", "DexcomChallenge.Models.Tests\DexcomChallenge.Models.Tests.csproj", "{BE87FBE1-C806-4F0A-911F-2EC5E43D25EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DexcomChallenge.Models.Tests", "DexcomChallenge.Models.Tests\DexcomChallenge.Models.Tests.csproj", "{BE87FBE1-C806-4F0A-911F-2EC5E43D25EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
